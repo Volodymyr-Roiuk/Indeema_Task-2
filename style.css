@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.modalWindow {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modalContent {
+  background-color: #fefefe;
+  margin: 20% auto;
+  padding: 20px;
+  width: 80%;
+  border: 1px solid #888;
+  border-radius: 7px;
+}
+
+.modalContent__text {
+  text-align: center;
+}
+
+#openModal, #closeModal {
+  display: block;
+  width: 150px;
+  height: 40px;
+  background-color: #bfbfbf;
+  border: none;
+  border-radius: 7px;
+}
+
+#openModal {
+  margin: 100px auto;
+}
+
+#closeModal {
+  margin: 0 auto;
+}
+
+#openModal:hover, #closeModal:hover {
+  background-color: #949494;
+}
